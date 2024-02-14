@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 320px;
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin: 0 auto;
+        }
+
+        table td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+            text-align: center;
+        }
+
+        table th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        ol, ul {
+            width: 480px;
+            margin: 0 auto;
+
+        }
+    </style>
+    <title>3DViewer Documentation</title>
+</head>
+
+<body>
+    <h1>3DViewer v2.0-1 Documentation</h1>
+    <p><b>3DViewer</b> - application for viewing wireframe models from an .obj files</p>
+
+    <h2>Installing</h2>
+    <p>To install the application run <b>make install</b> command</p>
+
+    <h2>Main features</h2>
+    <ol>
+        <li>Loading a wireframe model from an .obj file (vertices and surfaces list support only)</li>
+        <li>Translating the model by a given distance in relation to the X, Y, Z axes with sliders</li>
+        <li>Rotating the model by a given angle relative to its X, Y, Z axes with sliders</li>
+        <li>Scaling the model by a given value with slider</li>
+        <li>Settings for type, color and thickness of edges</li>
+        <li>Settings for display method, color and size of vertices</li>
+        <li>Choosable background color</li>
+        <li>Apllied settings saving between restarts</li>
+        <li>Saving captured images in jpeg, bmp formats</li>
+        <li>Recording small screencasts into gif-animation (640x480, 10fps, 5s)</li>
+    </ol>
+
+    <h2>User Interface</h2>
+    <p>Consists of:</p>
+   <ul>
+       <li>Visualisation area for the wireframe model</li>
+       <li>Sliders for affine transformations</li>
+       <li>Buttons for saving images and gif-files</li>
+       <li>Information about loaded model (filename, number of edges and vertices)</li>
+       <li>Button for choosing a model</li>
+   </ul>
+</body>
+
+</html>
